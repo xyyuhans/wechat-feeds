@@ -26,7 +26,7 @@
 ---
 ## 声明
 
-公众号均来自网友提交或者公开榜单
+收录的公众号均来自网友提交或者公开榜单, 不代表任何立场; 内容均为手动抄录, 未进行任何逆向工程.
 
 --- 
 ## 如何使用
@@ -216,3 +216,6 @@ feeds 托管在 github 上, 我无法获取订阅这些 feeds 的用户的任何
 - [ ] 添加 item description
 - [ ] 思考更简单的添加公众号的方式, 前提是继续控制成本
 - [ ] 思考如何用低成本实现添加全文
+- [ ] 给 pr 和 commit 添加自动 checks
+- [ ] 思考分类
+- [ ] 考虑 feeds 分支使用 force push, 以避免触及[仓库容量预警上限](https://docs.github.com/cn/github/managing-large-files/what-is-my-disk-quota#file-and-repository-size-limitations)
